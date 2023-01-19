@@ -26,15 +26,12 @@ If you find RCCR useful in your research, please consider citing:
 # Run training and testing
 
 ### Example of training a model with unsupervised domain adaptation on GTA5->CityScapes on a single gpu
-    ```bash
-    python3 train_spasr_gtav.py --config ./configs/configUDA_spasr_gtav.json --name UDA
-    ```
 
+python3 train_spasr_gtav.py --config ./configs/configUDA_spasr_gtav.json --name UDA
 
 ### Example of testing a model with domain adaptation with CityScapes as target domain
-    ```bash
-    python3 evaluateUDA.py --model-path *checkpoint.pth*
-    ```
+
+python3 evaluateUDA.py --model-path *checkpoint.pth*
 
 ## Acknowledgements
 
