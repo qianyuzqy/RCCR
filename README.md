@@ -1,6 +1,9 @@
 # RCCR
 (ICME 2022) Domain Adaptive Semantic Segmentation via Regional Contrastive Consistency Regularization
 
+**[[Arxiv]](https://arxiv.org/pdf/2110.05170.pdf)**
+**[[Paper]](https://ieeexplore.ieee.org/document/9859793/)**
+
 ## Citing RCCR
 If you find RCCR useful in your research, please consider citing:
 ```bibtex
